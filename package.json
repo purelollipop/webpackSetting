@@ -1,0 +1,53 @@
+{
+  "name": "demoa",
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "ind.js",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "build": "webpack --config config/webpack.dev.js",
+    "dev": "webpack-dev-server --config config/webpack.dev.js",
+    "pro": "webpack --config config/webpack.pro.js",
+    "hot": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.4.2",
+    "exports-loader": "^1.1.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jquery": "^3.5.1",
+    "loadsh": "0.0.4",
+    "style-loader": "^1.1.3",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "cssnano": "^4.1.10",
+    "imports-loader": "^1.2.0",
+    "jest": "^24.8.0",
+    "mini-css-extract-plugin": "^1.3.2",
+    "node-sass": "^4.13.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack-bundle-analyzer": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.0"
+  }
+}
